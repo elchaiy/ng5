@@ -1,0 +1,12 @@
+<div class="container color-dark">
+    <div class="col">
+      <p>Your cart list contain ({{ itemCount }}) items</p>
+    </div>
+</div>
+<div class="container color-light">
+  <div class="col">
+    <p class="life-container" *ngFor="let item of cart">
+      {{item}}
+    </p>
+  </div>
+</div>
